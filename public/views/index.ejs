@@ -1,0 +1,17 @@
+<table>
+  <tr>
+    <th>id</th>
+    <th>name</th>
+    <th>username</th>
+    <th>email</th>
+  </tr>
+  <% people.forEach(row => { %>
+    <tr>
+      <td><%= row.id %></td>
+      <td><%= row.name %></td>
+      <td><%= row.username %></td>
+      <td><%= row.email %></td>
+    </tr>
+  <% }); %>
+</table>
+
